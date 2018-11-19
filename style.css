@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://farm5.staticflickr.com/4892/45219622474_a03d5be9b5_o.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+
+.content {
+    width: 450px;
+    height: 450px;
+    margin: 150px auto 0 auto;
+    /* border: 1px solid #fff; */
+    color: #fff;
+}
+
+#btn {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius : 15px;
+    height: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 24px;
+    padding: 0 25px;
+    bottom: 0;
+    outline: none;
+    font-size: 14px;
+}
+#btn:hover {
+    background-color: rgba(0, 0, 0, 0.26);
+}
+#quote {
+    height: 170px;
+    padding-top: 40px;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+#quote > p {
+    
+    display: inline;
+}
+#author, #link {
+    height: 30px;
+}
+.pen, #author{
+    display: inline-block;
+    /* color: rgb(255, 138, 138); */
+    /* color: rgb(139, 255, 139); */
+    /* color: rgb(246, 255, 118); */
+    /* color: rgb(232, 138, 255); */
+    color: rgb(95, 255, 175);
+}
+h1 {
+    font-size: 38px;
+    display: inline-block;
+    margin: 0 auto;
+}
+#link > a{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 12px;
+}
+#link > a:hover {
+    font-style: italic;
+}
+.content > ion-icon {
+    display: block;
+    padding-top: 25px;
+    text-align: center;
+    margin: 0 auto;
+    width: 28px;
+    font-size: 28px;
+    color: #38a1f3;
+}
+.content > ion-icon:hover {
+    color: #fff;
+}
+
+footer > p {
+    color: #fff;
+    font-size: 12px;
+}
+footer > p > a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+footer > p > a:hover{
+    font-style: italic;
+}
+.content > i {
+    display: inline-block;
+}
