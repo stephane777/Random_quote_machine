@@ -16,7 +16,7 @@ btn.addEventListener('click', ()=>{
             // const data = await fetch('https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=?');
             const bulk = 40;
             let random = 0;
-            const data = await fetch(`http://quotesondesign.com/wp-json/posts?&filter[orderby]=rand&filter[posts_per_page]=${bulk}`); // filter[orderby]=random 
+            const data = await fetch(`https://quotesondesign.com/wp-json/posts?&filter[orderby]=rand&filter[posts_per_page]=${bulk}`); // filter[orderby]=random 
             const resultJson = await data.json();
             console.log(resultJson);
             random = Math.floor(Math.random()*40);
